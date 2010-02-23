@@ -1,0 +1,169 @@
+# depslib dependency file v1.0
+1266671894 source:c:\lcompiler\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<setjmp.h>
+	<config.h>
+	<ext/cmockery/cmockery.h>
+	<lexer/symboltable.h>
+	<ext/hashtable/hashtable.h>
+
+996112276 c:\mingw32\include\stdio.h
+	<_mingw.h>
+	<stddef.h>
+
+996112268 c:\mingw32\include\_mingw.h
+
+996112276 c:\mingw32\include\stddef.h
+	<machine/ansi.h>
+
+996112276 c:\mingw32\include\stdlib.h
+	<_mingw.h>
+	<stddef.h>
+
+1266670891 c:\lcompiler\config.h
+
+996112274 c:\mingw32\include\setjmp.h
+	<_mingw.h>
+
+1266537159 c:\lcompiler\google\cmockery.h
+
+1221527886 c:\lcompiler\ext\cmockery\config.h
+
+1266537173 c:\lcompiler\ext\cmockery\cmockery.h
+
+1266538341 source:c:\lcompiler\ext\cmockery\cmockery.c
+	<malloc.h>
+	<setjmp.h>
+	<signal.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"cmockery.h"
+
+1266597206 source:c:\lcompiler\lexer\lexer.c
+
+1266544512 source:c:\lcompiler\ext\hashtable\hashtable.c
+	"hashtable.h"
+	"hashtable_private.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+
+1266544518 c:\lcompiler\ext\hashtable\hashtable.h
+
+1266544530 c:\lcompiler\ext\hashtable\hashtable_private.h
+	"hashtable.h"
+
+1266544534 source:c:\lcompiler\ext\hashtable\hashtable_itr.c
+	"hashtable.h"
+	"hashtable_private.h"
+	"hashtable_itr.h"
+	<stdlib.h>
+
+1266544538 c:\lcompiler\ext\hashtable\hashtable_itr.h
+	"hashtable.h"
+	"hashtable_private.h"
+
+1266544584 source:c:\lcompiler\ext\hashtable\hashtable_utility.c
+	"hashtable.h"
+	"hashtable_private.h"
+	"hashtable_utility.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1266544580 c:\lcompiler\ext\hashtable\hashtable_utility.h
+
+1266671934 source:c:\lcompiler\lexer\symboltable.c
+	<stdlib.h>
+	<config.h>
+	<lexer\symboltable.h>
+
+1266671679 c:\lcompiler\lexer\symboltable.h
+	<ext/hashtable/hashtable.h>
+	<config.h>
+
+1266789928 source:c:\documents and settings\julio\desktop\lcompiler\ext\hashtable\hashtable.c
+	"hashtable.h"
+	"hashtable_private.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+
+1266548118 c:\documents and settings\julio\desktop\lcompiler\ext\hashtable\hashtable.h
+
+1266548130 c:\documents and settings\julio\desktop\lcompiler\ext\hashtable\hashtable_private.h
+	"hashtable.h"
+
+1266548134 source:c:\documents and settings\julio\desktop\lcompiler\ext\hashtable\hashtable_itr.c
+	"hashtable.h"
+	"hashtable_private.h"
+	"hashtable_itr.h"
+	<stdlib.h>
+
+1266548138 c:\documents and settings\julio\desktop\lcompiler\ext\hashtable\hashtable_itr.h
+	"hashtable.h"
+	"hashtable_private.h"
+
+1266548184 source:c:\documents and settings\julio\desktop\lcompiler\ext\hashtable\hashtable_utility.c
+	"hashtable.h"
+	"hashtable_private.h"
+	"hashtable_utility.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1266548180 c:\documents and settings\julio\desktop\lcompiler\ext\hashtable\hashtable_utility.h
+
+1266600808 source:c:\documents and settings\julio\desktop\lcompiler\lexer\lexer.c
+
+1266541942 source:c:\documents and settings\julio\desktop\lcompiler\ext\cmockery\cmockery.c
+	<malloc.h>
+	<setjmp.h>
+	<signal.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"cmockery.h"
+
+1266540774 c:\documents and settings\julio\desktop\lcompiler\ext\cmockery\cmockery.h
+
+1266798462 source:c:\documents and settings\julio\desktop\lcompiler\lexer\freader.c
+
+1266795872 source:c:\documents and settings\julio\desktop\lcompiler\lexer\symboltable.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<config.h>
+	<lexer/symboltable.h>
+
+1266778692 c:\documents and settings\julio\desktop\lcompiler\config.h
+
+1266792342 c:\documents and settings\julio\desktop\lcompiler\lexer\symboltable.h
+	<ext/hashtable/hashtable.h>
+	<ext/hashtable/hashtable_itr.h>
+
+1266846766 source:c:\documents and settings\julio\desktop\lcompiler\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<setjmp.h>
+	<ext/cmockery/cmockery.h>
+	<config.h>
+	<lexer/symboltable.h>
+
+1266778312 c:\documents and settings\julio\desktop\lcompiler\lexer\lexer.h
+	"symboltable.h"
+

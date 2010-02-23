@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="lcompiler" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\lcompiler" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\lcompiler" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="..\lcompiler" />
+		</Compiler>
+		<Unit filename="config.h" />
+		<Unit filename="ext\cmockery\cmockery.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ext\cmockery\cmockery.h" />
+		<Unit filename="ext\cmockery\config.h" />
+		<Unit filename="ext\hashtable\hashtable.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ext\hashtable\hashtable.h" />
+		<Unit filename="ext\hashtable\hashtable_itr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ext\hashtable\hashtable_itr.h" />
+		<Unit filename="ext\hashtable\hashtable_private.h" />
+		<Unit filename="ext\hashtable\hashtable_utility.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ext\hashtable\hashtable_utility.h" />
+		<Unit filename="lexer\freader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lexer\freader.h" />
+		<Unit filename="lexer\lexer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lexer\lexer.h" />
+		<Unit filename="lexer\symboltable.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lexer\symboltable.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
