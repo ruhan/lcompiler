@@ -1,6 +1,6 @@
 /*******************************************************************************
- * Implementa as funções da tabela de símbolos, preenchida pelo analisador
- * léxico, e usada por todo o compilador.
+ * Implementa as funÃ§Ãµes da tabela de sÃ­mbolos, preenchida pelo analisador
+ * lÃ©xico, e usada por todo o compilador.
  *
  * @author: Julio Cesar <julio.cesar@2xt.com.br> - 350705
  *          Ruhan Bidart <ruhan@2xt.com.br> - 347152
@@ -29,7 +29,7 @@ extern char symboltable_initial_tokens[LCOMPILER_SYMBOLTABLE_INITIAL_LENGTH][7] 
  */
 static unsigned int sdbm(char *str)
 {
-    // TODO: conferir valores muto grandes que esta função está retornando
+    // TODO: conferir valores muto grandes que esta funÃ§Ã£o estÃ¡ retornando
     // (considerar usar este resultado % tamanho da hsh)
     unsigned long hash = 0;
     int c;
@@ -49,8 +49,6 @@ static unsigned int teste_chaves_iguais(char *v, char *v1){
     return (strcmp(v, v1)  == 0);
 }
 
-
-/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 
 
 // Inicializa os valores dos tokens da linguagem L na tabela de simbolos
@@ -84,7 +82,7 @@ struct symbol *symboltable_insert(char token, char *lexeme)
     struct symbol *symb = (struct symbol *) malloc(sizeof(struct symbol));
     symb->token = token;
 
-    // Criamos uma string equivalente ao lexema indicado e fazemos a inserção
+    // Criamos uma string equivalente ao lexema indicado e fazemos a inserÃ§Ã£o
     // com este elemento
     char *lex = malloc(sizeof(char) * strlen(lexeme));
     strcpy(lex, lexeme);
@@ -104,11 +102,11 @@ struct symbol *symboltable_search(char *lexeme)
 }
 
 
-// Exibe na tela o conteudo de todos o símbolos contidos na tabela de simbolos
+// Exibe na tela o conteudo de todos o sÃ­mbolos contidos na tabela de simbolos
 void symboltable_print(void)
 {
     if(LCOMPILER_DEBUG){
-        printf("GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG\n");
+        printf("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n");
         printf("VISUALIZANDO CONTEUDO DA TABELA DE SIMBOLOS\n");
     }
 
